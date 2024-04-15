@@ -96,8 +96,106 @@ class MyApp extends StatelessWidget {
                     child: Text(
                       "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum .",
                       style: TextStyle(
-                          fontWeight: FontWeight.w400, color: Colors.white),
+                          fontSize: 16,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.white),
                       textAlign: TextAlign.center,
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Center(
+                    child: Container(
+                      height: 80,
+                      width: 250,
+                      decoration: const BoxDecoration(color: Colors.black),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Container(
+                            height: 50,
+                            width: 50,
+                            decoration: BoxDecoration(
+                                color: Color.fromARGB(255, 138, 23, 14),
+                                borderRadius: BorderRadius.circular(1000)),
+                          ),
+                          Container(
+                            height: 50,
+                            width: 50,
+                            decoration: BoxDecoration(
+                                color: Colors.orange,
+                                borderRadius: BorderRadius.circular(1000)),
+                          ),
+                          Container(
+                            height: 50,
+                            width: 50,
+                            decoration: BoxDecoration(
+                                color: const Color.fromARGB(255, 228, 105, 146),
+                                borderRadius: BorderRadius.circular(1000)),
+                          ),
+                          Container(
+                            height: 50,
+                            width: 50,
+                            decoration: BoxDecoration(
+                                color: Colors.blue,
+                                borderRadius: BorderRadius.circular(1000)),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Center(
+                    child: Image.asset(
+                      "assets/space3.png",
+                      width: 250,
+                    ),
+                  ),
+                  const Text(
+                    "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed  .",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.white,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(
+                    height: 30,
+                  ),
+                  Center(
+                    child: Container(
+                      height: 60,
+                      width: 250,
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 138, 23, 14),
+                        borderRadius: BorderRadius.circular(100),
+                      ),
+                      child: const Center(
+                        child: Text(
+                          "SPACE DETAILS",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: 100,
+                  ),
+                  const Text(
+                    "BLACK HOLE",
+                    style: TextStyle(fontSize: 23, color: Colors.white),
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(top: 20),
+                    child: Text(
+                      "Forem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed  .",
+                      style: TextStyle(color: Colors.white),
                     ),
                   )
                 ],
